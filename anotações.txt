@@ -1,0 +1,6 @@
+== GraphCMS ==
+Query / mutation
+
+query = buscar dados;
+mutation = criar / altera ou deletar dados;
+
