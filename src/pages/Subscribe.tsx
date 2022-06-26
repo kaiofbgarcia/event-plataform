@@ -1,5 +1,6 @@
 import { gql, useMutation } from "@apollo/client";
 import { useState, FormEvent } from "react";
+import { Footer } from "../components/Footer";
 import { Logo } from "../components/Logo";
 
 const CREATE_SUBSCRIBER_MUTATION = gql`
@@ -65,6 +66,7 @@ export function Subscribe(){
                 </div>
             </div>
             <img src="/src/assets/code-mockup.png" className="mt-10" alt="" />
+            <Footer />
         </div>
     );
 }
